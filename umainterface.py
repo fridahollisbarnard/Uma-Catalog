@@ -34,7 +34,8 @@ while menu_choice != 'Z':
                         'F: Seniors\n' 
                         'G: Tall Uma\n' 
                         'H: Miho Dorm\n' 
-                        'I: Young\n'
+                        'I: Young\n' 
+                        'J: Everything\n'
                         'Z: Exit\n\nType option here: ')
     menu_choice = menu_choice.upper()
     if menu_choice == 'A':
@@ -55,3 +56,5 @@ while menu_choice != 'Z':
         print_query('uma miho')
     elif menu_choice == 'I':
         print_query('young')
+    elif menu_choice == 'J':
+        print_query('everytab')
